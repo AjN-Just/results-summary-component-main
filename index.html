@@ -85,6 +85,21 @@
       font-size: 18px;
       cursor: pointer;
     }
+
+    @media (max-width: 750px) {
+      .card {
+        width: 95%; height: auto;
+        margin: 0 auto 30px;
+        display: flex; flex-direction: column;
+      }
+      .card_profil, .card_result {
+        width: 89%; height: auto;
+        float: none; margin: 0;
+      }
+      .card_profil nav {
+        margin-bottom: 30px;
+      }
+    }
   </style>
 </head>
 <body>
